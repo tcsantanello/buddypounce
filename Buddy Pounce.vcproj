@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.00"
+	Name="Buddy Pounce"
+	ProjectGUID="{46FC4A7E-CB0D-4C84-88C8-A46CBFDEA63E}"
+	SccProjectName="Buddy Pounce"
+	SccAuxPath=""
+	SccLocalPath="."
+	SccProvider="MSSCCI:Jalindi Igloo"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="Debug"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			UseOfATL="1"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_USRDLL;BUDDYPOUNCE_EXPORTS"
+				MinimalRebuild="TRUE"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="3"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="TRUE"
+				DebugInformationFormat="4"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalOptions="Msimg32.lib comctl32.lib"
+				OutputFile="C:\Program Files\Trillian\plugins\Buddy Pounce.dll"
+				LinkIncremental="2"
+				ModuleDefinitionFile="Buddy Pounce.def"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile="$(OutDir)/Buddy Pounce.pdb"
+				SubSystem="2"
+				ImportLibrary="$(OutDir)/Buddy Pounce.lib"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="Release"
+			ConfigurationType="2"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				InlineFunctionExpansion="0"
+				OmitFramePointers="FALSE"
+				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_USRDLL;BUDDYPOUNCE_EXPORTS"
+				StringPooling="FALSE"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				BufferSecurityCheck="FALSE"
+				EnableFunctionLevelLinking="FALSE"
+				UsePrecompiledHeader="3"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="TRUE"
+				DebugInformationFormat="3"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalOptions="Msimg32.lib comctl32.lib"
+				OutputFile="C:\Program Files\Trillian\plugins\Buddy Pounce.dll"
+				LinkIncremental="1"
+				ModuleDefinitionFile="Buddy Pounce.def"
+				GenerateDebugInformation="TRUE"
+				SubSystem="2"
+				OptimizeReferences="0"
+				EnableCOMDATFolding="0"
+				ImportLibrary="$(OutDir)/Buddy Pounce.lib"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+		</Configuration>
+		<Configuration
+			Name="New Release|Win32"
+			OutputDirectory="New Release"
+			IntermediateDirectory="New Release"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			UseOfATL="0"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="2"
+				FavorSizeOrSpeed="1"
+				OmitFramePointers="TRUE"
+				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_USRDLL;BUDDYPOUNCE_EXPORTS"
+				StringPooling="TRUE"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="TRUE"
+				DebugInformationFormat="0"
+				ShowIncludes="FALSE"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalOptions="Msimg32.lib comctl32.lib"
+				OutputFile="C:\Program Files\Trillian\plugins\Buddy Pounce.dll"
+				LinkIncremental="1"
+				ModuleDefinitionFile="Buddy Pounce.def"
+				GenerateDebugInformation="FALSE"
+				SubSystem="2"
+				OptimizeReferences="2"
+				EnableCOMDATFolding="2"
+				SetChecksum="TRUE"
+				ImportLibrary="$(OutDir)/Buddy Pounce.lib"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+		</Configuration>
+		<Configuration
+			Name="New Debug|Win32"
+			OutputDirectory="New Debug"
+			IntermediateDirectory="New Debug"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			UseOfATL="0"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_USRDLL;BUDDYPOUNCE_EXPORTS"
+				MinimalRebuild="TRUE"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="3"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="TRUE"
+				DebugInformationFormat="4"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalOptions="Msimg32.lib comctl32.lib"
+				OutputFile="C:\Program Files\Trillian\plugins\Buddy Pounce.dll"
+				LinkIncremental="2"
+				ModuleDefinitionFile="Buddy Pounce.def"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile="$(OutDir)/Buddy Pounce.pdb"
+				SubSystem="2"
+				ImportLibrary="$(OutDir)/Buddy Pounce.lib"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm">
+			<File
+				RelativePath="Buddy Pounce.cpp">
+			</File>
+			<File
+				RelativePath="Buddy Pounce.def">
+			</File>
+			<File
+				RelativePath="BuddyThread.cpp">
+			</File>
+			<File
+				RelativePath="Enumeration Callbacks.cpp">
+			</File>
+			<File
+				RelativePath="File Class.cpp">
+			</File>
+			<File
+				RelativePath="Globals.cpp">
+			</File>
+			<File
+				RelativePath="INI Settings.cpp">
+			</File>
+			<File
+				RelativePath="Logger Class.cpp">
+			</File>
+			<File
+				RelativePath="MD5.cpp">
+			</File>
+			<File
+				RelativePath="Mem-Manager.cpp">
+			</File>
+			<File
+				RelativePath="Misc Functions.cpp">
+			</File>
+			<File
+				RelativePath="String Functions.cpp">
+			</File>
+			<File
+				RelativePath="Window Functions.cpp">
+			</File>
+			<File
+				RelativePath="stdafx.cpp">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="New Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="New Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc">
+			<File
+				RelativePath="Buddy Pounce.h">
+			</File>
+			<File
+				RelativePath="Constants.h">
+			</File>
+			<File
+				RelativePath="File Class.h">
+			</File>
+			<File
+				RelativePath="Functions.h">
+			</File>
+			<File
+				RelativePath="Logger Class.h">
+			</File>
+			<File
+				RelativePath="MD5.h">
+			</File>
+			<File
+				RelativePath="Macros.h">
+			</File>
+			<File
+				RelativePath="Mem-Manager.h">
+			</File>
+			<File
+				RelativePath="Structures.h">
+			</File>
+			<File
+				RelativePath="plugin.h">
+			</File>
+			<File
+				RelativePath="resource.h">
+			</File>
+			<File
+				RelativePath="stdafx.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe">
+			<File
+				RelativePath="AddNew.bmp">
+			</File>
+			<File
+				RelativePath="BP32.png">
+			</File>
+			<File
+				RelativePath="BP48.png">
+			</File>
+			<File
+				RelativePath="Buddy Pounce.rc">
+			</File>
+			<File
+				RelativePath="BuddyPounce.bmp">
+			</File>
+			<File
+				RelativePath="Inquiry.ico">
+			</File>
+			<File
+				RelativePath="paypal.bmp">
+			</File>
+		</Filter>
+		<File
+			RelativePath="Help.txt">
+		</File>
+		<File
+			RelativePath="ReadMe.txt">
+		</File>
+		<File
+			RelativePath="donate.txt">
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

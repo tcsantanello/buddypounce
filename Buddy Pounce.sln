@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Buddy Pounce", "Buddy Pounce.vcproj", "{46FC4A7E-CB0D-4C84-88C8-A46CBFDEA63E}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = Buddy\u0020Pounce
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Jalindi\u0020Igloo
+		CanCheckoutShared = true
+		SolutionUniqueID = {9A81EBD3-A6B9-4CBB-9133-C3F48C6E77C3}
+		SccProjectUniqueName1 = Buddy\u0020Pounce.vcproj
+		SccLocalPath1 = .
+		CanCheckoutShared = true
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = New Debug
+		ConfigName.2 = New Release
+		ConfigName.3 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{46FC4A7E-CB0D-4C84-88C8-A46CBFDEA63E}.Debug.ActiveCfg = Debug|Win32
+		{46FC4A7E-CB0D-4C84-88C8-A46CBFDEA63E}.Debug.Build.0 = Debug|Win32
+		{46FC4A7E-CB0D-4C84-88C8-A46CBFDEA63E}.New Debug.ActiveCfg = New Debug|Win32
+		{46FC4A7E-CB0D-4C84-88C8-A46CBFDEA63E}.New Debug.Build.0 = New Debug|Win32
+		{46FC4A7E-CB0D-4C84-88C8-A46CBFDEA63E}.New Release.ActiveCfg = New Release|Win32
+		{46FC4A7E-CB0D-4C84-88C8-A46CBFDEA63E}.New Release.Build.0 = New Release|Win32
+		{46FC4A7E-CB0D-4C84-88C8-A46CBFDEA63E}.Release.ActiveCfg = Release|Win32
+		{46FC4A7E-CB0D-4C84-88C8-A46CBFDEA63E}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

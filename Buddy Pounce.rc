@@ -1,0 +1,431 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PREFS_DLG DIALOGEX 0, 0, 256, 251
+STYLE DS_SETFONT | DS_CONTROL | WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Sans Serif", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_TAB,"SysTabControl32",TCS_MULTILINE | WS_GROUP | 
+                    WS_TABSTOP,7,7,242,237
+END
+
+IDD_EDIT DIALOGEX 0, 0, 228, 239
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_MEDIUM,12,66,199,91,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_FROM,12,97,199,91,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_TO,14,129,199,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_MESSAGE,12,159,200,67,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN
+    CONTROL         "Current Session",IDC_CURRENTSESSION,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | BS_MULTILINE | 
+                    WS_TABSTOP,14,14,69,16
+    CONTROL         "Pause Pounce",IDC_PAUSE,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_MULTILINE | WS_TABSTOP,14,33,69,16
+    PUSHBUTTON      "Only Send On",IDC_SENDONAFTER,94,15,65,15,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_SENDON,"SysDateTimePick32",DTS_RIGHTALIGN | 
+                    DTS_SHOWNONE | WS_TABSTOP,93,33,65,15
+    DEFPUSHBUTTON   "OK",IDOK,171,12,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,171,37,50,14
+    GROUPBOX        "Message",IDC_STATIC,7,149,209,82
+    GROUPBOX        "Send message to...",IDC_STATIC,7,118,209,28
+    GROUPBOX        "Send using ...",IDC_STATIC,7,87,209,28
+    GROUPBOX        "Use",IDC_STATIC,7,55,209,29
+    GROUPBOX        "Pounce Properties",IDC_STATIC,7,4,162,50
+END
+
+IDD_POUNCES DIALOGEX 0, 0, 230, 212
+STYLE DS_SETFONT | DS_CONTROL | WS_CHILD | WS_CLIPCHILDREN
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Sans Serif", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,6,6,222,186
+    PUSHBUTTON      "Add",IDC_ADD,66,197,50,14
+    PUSHBUTTON      "Edit",IDC_EDIT,120,197,50,14
+    PUSHBUTTON      "Delete",IDC_DELETE,174,197,50,14
+END
+
+IDD_MESG DIALOGEX 0, 0, 230, 212
+STYLE DS_SETFONT | DS_CONTROL | WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Sans Serif", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_PREFIX,12,18,207,71,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN
+    EDITTEXT        IDC_SUCCEED,12,130,207,71,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN
+    GROUPBOX        "Precede Pounce with...",IDC_STATIC,6,6,222,89,
+                    WS_TABSTOP
+    GROUPBOX        "Succeed Pounce with...",IDC_STATIC,6,117,222,89,
+                    WS_TABSTOP
+    CONTROL         "Send Messages on seperate lines",IDC_SEPERATE,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,53,102,122,10
+END
+
+IDD_PREFS DIALOGEX 0, 0, 230, 212
+STYLE DS_SETFONT | DS_CONTROL | WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Sans Serif", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_INTERVAL,53,17,33,14,ES_AUTOHSCROLL
+    CONTROL         "Use Time",IDC_TIME,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,21,34,65,10
+    CONTROL         "",IDC_START,"SysDateTimePick32",DTS_RIGHTALIGN | 
+                    DTS_UPDOWN | WS_TABSTOP | 0x8,53,50,57,15
+    CONTROL         "",IDC_END,"SysDateTimePick32",DTS_RIGHTALIGN | 
+                    DTS_UPDOWN | WS_TABSTOP | 0x8,53,68,57,15
+    EDITTEXT        IDC_WAITSEC,188,157,25,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Enable",IDC_SECTION,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,18,104,85,10
+    CONTROL         "Enable",IDC_MESGDET,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,131,19,39,10
+    CONTROL         "Confirm",IDC_CONFIRM,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,176,19,39,10
+    LISTBOX         IDC_OFFLINEIGNORE,132,41,85,36,LBS_SORT | 
+                    LBS_MULTIPLESEL | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "Polling",IDC_STATIC,7,7,109,85,WS_TABSTOP
+    LTEXT           "Interval",IDC_STATIC,23,20,24,8,WS_TABSTOP
+    LTEXT           "Start Time",IDC_STATIC,13,53,33,8,WS_TABSTOP
+    LTEXT           "End Time",IDC_STATIC,13,72,31,8,WS_TABSTOP
+    GROUPBOX        "Buddy Pounce Section",IDC_STATIC,7,94,109,25,WS_TABSTOP
+    GROUPBOX        "Offline Message Detection",IDC_MYSTATIC,126,7,97,75,
+                    WS_TABSTOP
+    GROUPBOX        "Disable for the following",IDC_MYSTATIC2,126,32,97,50,
+                    BS_CENTER | WS_TABSTOP
+    LTEXT           "Contact Delay",IDC_STATIC,135,160,46,8,WS_TABSTOP
+    CONTROL         "User Logs In Only",IDC_LOGINONLY,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,135,112,78,10
+    GROUPBOX        "Send Pounces when ...",IDC_STATIC,127,87,95,54,
+                    WS_TABSTOP
+    CONTROL         "User is Online Only",IDC_ACCEPTABLE,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,135,126,78,10
+    CONTROL         "When I'm not away",IDC_ONLINEONLY,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,135,98,78,10
+    GROUPBOX        "Message Delays",IDC_STATIC,126,146,97,46,WS_TABSTOP
+    EDITTEXT        IDC_THRESHOLD,188,173,25,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Pounces Delay",IDC_STATIC,135,175,49,8,WS_TABSTOP
+    GROUPBOX        "Message Window",IDC_STATIC,7,122,109,41
+    COMBOBOX        IDC_WINDOWOP,17,144,88,61,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Perform after pounce:",IDC_STATIC,17,132,69,8
+    CONTROL         "Enable Logging",IDC_DEBUGLOG,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,18,176,85,10
+    GROUPBOX        "Debugging",IDC_STATIC,7,166,109,25,WS_TABSTOP
+END
+
+IDD_CONFIRM DIALOGEX 0, 0, 242, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Buddy Pounce"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,132,41,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,185,41,50,14
+    LTEXT           "Your buddy is currently being detected as offline would you like to add this message and subsequent messages as buddy pounces ?",
+                    IDC_STATIC,60,9,175,27
+    CONTROL         "I don't want to see this again!",IDC_GOAWAY,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,12,43,112,10
+    ICON            ID_INQUIRY,IDC_STATIC,22,13,20,20
+END
+
+IDD_HELP DIALOGEX 0, 0, 230, 212
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_HELPVER,6,6,222,204,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL
+END
+
+IDD_ADD DIALOGEX 0, 0, 228, 302
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_MEDIUM,12,66,199,91,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_FROM,12,97,199,91,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_TO,12,128,199,78,LBS_SORT | LBS_MULTIPLESEL | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_MESSAGE,12,223,200,67,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN
+    CONTROL         "Current Session",IDC_CURRENTSESSION,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | BS_MULTILINE | 
+                    WS_TABSTOP,14,14,69,16
+    CONTROL         "Pause Pounce",IDC_PAUSE,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_MULTILINE | WS_TABSTOP,14,33,69,16
+    PUSHBUTTON      "Only Send On",IDC_SENDONAFTER,94,15,65,15,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_SENDON,"SysDateTimePick32",DTS_RIGHTALIGN | 
+                    DTS_SHOWNONE | WS_TABSTOP,93,33,65,15
+    DEFPUSHBUTTON   "OK",IDOK,171,12,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,171,37,50,14
+    GROUPBOX        "Message",IDC_STATIC,7,213,209,82
+    GROUPBOX        "Send message to...",IDC_STATIC,7,118,209,92
+    GROUPBOX        "Send using ...",IDC_STATIC,7,87,209,28
+    GROUPBOX        "Use",IDC_STATIC,7,55,209,29
+    GROUPBOX        "Pounce Properties",IDC_STATIC,7,4,162,50
+END
+
+IDD_DONATE DIALOGEX 0, 0, 230, 212
+STYLE DS_SETFONT | DS_CONTROL | WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Sans Serif", 400, 0, 0x0
+BEGIN
+    CTEXT           "Place Holder\nPlace Holder\nPlace Holder",IDC_MESG,0,33,
+                    229,93
+    CTEXT           "Thank you for your support!\n-TCSantanello",IDC_STATIC,
+                    7,180,216,22
+    PUSHBUTTON      "Donation",IDC_PPBUTTON,93,153,43,21,BS_BITMAP | BS_FLAT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_PREFS_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 244
+    END
+
+    IDD_POUNCES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 205
+    END
+
+    IDD_MESG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 205
+    END
+
+    IDD_PREFS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 205
+    END
+
+    IDD_CONFIRM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 235
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_HELP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 205
+    END
+
+    IDD_ADD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 221
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 295
+    END
+
+    IDD_DONATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 205
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_LOGO                BITMAP                  "BuddyPounce.bmp"
+IDB_ADD                 BITMAP                  "AddNew.bmp"
+IDB_PAYPAL              BITMAP                  "paypal.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,5,0,0
+ PRODUCTVERSION 2,5,0,0
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Adds Buddy Pounce functionality to Trillian Pro"
+            VALUE "CompanyName", "TCS Software"
+            VALUE "FileDescription", "Buddy Pounce plugin for Trillian Pro "
+            VALUE "FileVersion", "2, 5, 0, 0"
+            VALUE "InternalName", "Buddy Pounce"
+            VALUE "LegalCopyright", "Copyright (C) 2003-2005"
+            VALUE "OriginalFilename", "Buddy Pounce.dll"
+            VALUE "ProductName", "Buddy Pounce"
+            VALUE "ProductVersion", "2, 5, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+ID_INQUIRY              ICON                    "Inquiry.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXT
+//
+
+IDR_HELPFILE            TEXT                    "Help.txt"
+IDR_DONATE              TEXT                    "donate.txt"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_POUNCES_MENU MENU 
+BEGIN
+    POPUP "Pounce Menu", MENUBARBREAK
+    BEGIN
+        MENUITEM "Add Pounce",                  1004
+        MENUITEM SEPARATOR
+        MENUITEM "Edit Pounce",                 1005
+        MENUITEM "Delete Pounce",               1003
+    END
+    MENUITEM SEPARATOR
+END
+
+IDR_MAIN_POUNCE_MENU MENU 
+BEGIN
+    POPUP "Pounces Menu"
+    BEGIN
+        MENUITEM "Add Pounce",                  1004
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDR_BP48                PNG                     "BP48.png"
+IDR_BP32                PNG                     "BP32.png"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,72 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Visual C++ generated include file.
+// Used by Buddy Pounce.rc
+//
+#define ID_INQUIRY 5
+#define IDB_LOGO 107
+#define IDB_ADD 108
+#define IDR_MAIN_POUNCE_MENU 117
+#define IDR_HELPFILE 118
+#define IDR_POUNCES_MENU 119
+#define IDD_ADD 120
+#define IDD_POUNCES 121
+#define IDD_PREFS 122
+#define IDD_PREFS_DLG 123
+#define IDD_MESG 124
+#define IDD_CONFIRM 125
+#define IDD_HELP 126
+#define IDD_EDIT 127
+#define IDD_DONATE 128
+#define IDR_BP48 129
+#define IDR_BP32 130
+#define IDB_PAYPAL 133
+#define IDR_DONATE 136
+#define IDC_TAB 1001
+#define IDC_LIST 1002
+#define IDC_DELETE 1003
+#define IDC_ADD 1004
+#define IDC_EDIT 1005
+#define IDC_TO 1006
+#define IDC_FROM 1007
+#define IDC_MEDIUM 1008
+#define IDC_MESSAGE 1009
+#define IDC_INTERVAL 1010
+#define IDC_PREFIX 1011
+#define IDC_SUCCEED 1012
+#define IDC_TIME 1013
+#define IDC_SECTION 1014
+#define IDC_MESGDET 1015
+#define IDC_PAUSE 1016
+#define IDC_WAITSEC 1017
+#define IDC_CURRENTSESSION 1018
+#define IDC_OFFLINEIGNORE 1019
+#define IDC_SENDON 1020
+#define IDC_GOAWAY 1021
+#define IDC_CONFIRM 1022
+#define IDC_SENDONAFTER 1023
+#define IDC_DEBUGLOG 1024
+#define IDC_LOGINONLY 1047
+#define IDC_MYSTATIC 1048
+#define IDC_MYSTATIC2 1049
+#define IDC_HELPVER 1050
+#define IDC_START 1054
+#define IDC_END 1055
+#define IDC_THRESHOLD 1056
+#define IDC_ACCEPTABLE 1057
+#define IDC_SEPERATE 1059
+#define IDC_PAYPAL 1071
+#define IDC_MESG 1072
+#define IDC_PPBUTTON 1074
+#define IDC_ONLINEONLY 1075
+#define IDC_WINDOWOP 1076
+
+// Next default values for new objects
+//
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE 137
+#define _APS_NEXT_COMMAND_VALUE 40001
+#define _APS_NEXT_CONTROL_VALUE 1077
+#define _APS_NEXT_SYMED_VALUE 104
+#endif
+#endif

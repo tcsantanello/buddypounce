@@ -1,0 +1,232 @@
+Buddy Pounce for Trillian by TCSantanello (AIM) 
+
+(http://buddypounce.ath.cx/buddy_pounce.zip)
+
+-- This is a recreation of GAIM's Buddy Pounce --
+
+
+Tabs:
+
+--Pounces: Pounces are listed here (also in  the BP section).  
+
+  * Here you may Add, Edit, and Delete pounces.
+
+
+--Settings: Here is the global configuraton for BP.
+
+  * Interval (sec): Is the interval (in seconds)  between complete 
+      polling cycles.
+
+  * Use Time: With Use Time set, you may enter the polling time 
+      ranges into Start & End Time.
+
+  * Start Time: Start polling for queued pounces at ...
+
+  * End Time: End polling for queued pounces at ...
+
+  * Contact Delay: Delay message till user has been online for 
+      the said amount of time.
+  
+  * Pounce Delay: Delay before sending another pounce.
+
+  * Buddy Pounce Section: Enable/Disable BP section in Contact 
+      List area.
+
+  * Send Pounces When User Logs In Only: Only send a pounce 
+      when user signs on.
+  
+  * Send Pounces When User is Online Only: Only send a pounce 
+      when user is marked as 'online' status.
+      
+  * Send Pounces When I'm not away: Only send a pounce when 
+      the account status is online
+
+  * Offline Message Detection: Enable/Disable offline message 
+      detection (v2 Trillian only)
+
+  * Confirm OMS:  Confirm offline message per user / per window.
+
+  * Disable Offline Message Detection for the following: 
+      Omit mediums from scanning.
+      
+  * Perform after pounce: Ability to either close or minimize 
+      the message window after sending a pounce.  This action
+      is only taken if the window was NOT open and used prior
+      to sending the pounce.
+  
+  * Logging: Writes messages to BuddyPounce.log, in the current 
+      working directory, in an anonymous fashion (MD5 sums) 
+      about the inner workings of BP.
+
+--Messages:
+
+  * Precede Pounce with: Precede pounce with this text 
+      (seperate message)
+
+  * Succeed Pounce with: Succeed pounce with this text 
+      (seperate message)
+
+
+
+Add/Edit Dialogs:
+
+  * Current Session: Delete pounce when Trillian is closed.
+    
+  * Pause Pounce: Pause current pounce.
+    
+  * 'Only Send On' / 'Send On/After': Toggle how the date
+      will be treated.
+      
+  * (Date Picker): Enter a date that the pounce will be sent.
+    
+  * Use: Select the medium to send on.
+    
+  * Send Using: Select the medium to send from.
+    
+  * Send Message To: Select buddy to set a pounce on.
+    
+  * Message: Text to send your buddy.
+
+
+v2.5
+
+  Logging
+  Tweaks
+
+v2.5 - RC4
+
+  Cleanup & Corrections of Previous REV Changes
+  Cleanup & Corrections of Section List Enum
+  Add Necessary Component Failure Notifiers
+
+v2.5 - RC3
+  
+  Removes Contacts & Accounts when they are no longer
+     available
+  Changed behavior of Window Operations (now only happens
+     with new windows)
+
+v2.5 - RC2
+
+  Send Pounce only when "I'm online"
+  Window Operations (Close & Minimize) on pounce
+
+v2.5 - RC1
+
+  MassPounce
+
+v2.4
+
+  MetaPounce  
+
+v2.3
+
+  Complete core rewrite for Trillian v3
+
+v2.2
+
+  Fix for invisible status
+
+v2.1
+  
+  Another OMS fix.
+
+v2.0
+
+  Send when recipient is online [not away] only (GLOBAL) 
+    added
+    
+  Optional Seperate lines for Preceding / Succeeding Messages
+
+v1.9.9.5
+
+  Trillian 2.01B1 OMS Fix.
+
+v1.9.9
+
+  Fix: OMS now preserves newlines
+  Changed a few defaults
+
+v1.9.8
+
+  Pounce rate limiting.
+  Bug fixes.
+                  
+v1.9.6
+
+  Fixed some oopsies :-/
+
+v1.9.5
+
+  Pounce List: Edit on double-click & right click added.
+  Persistant Pause Pounce: setting stays after closure.
+  BP Section '+' transparency set.
+
+v1.9
+
+  Variables Added (%h,%m,%N,%D,%H,%s,%n,%a,%y,%d):
+	%h -- 24 Hour
+	%m -- Minutes
+	%N -- Month #
+	%D -- Day #
+	%H -- 12 Hour
+	%s -- Seconds
+	%n -- Month Jan - Dec
+	%a -- AM/PM
+	%y -- Year  YYYY 
+	%d -- Day Sun - Sat
+	
+	  The variables work off of BP creation Timestamp
+
+  Blocking fix: added ConnectionID to contact
+  Message Splitting: ~ 400 Characters
+  Preceding / Succeeding Messages on same line: 
+	"Precede Message Succeed"
+
+v1.8
+
+  Buddy Pounce Event added ( "Buddy Pounce: Message Sent" )
+	
+v1.7 
+
+  Add Dialog fixes
+  Send On/After support added
+  Send on Login only added
+
+v1.6
+	
+  MSN bug fix.
+
+  Revised Core; uses less CPU cycles
+  OMS (offline message system) confirmation 
+    (per user & per window)
+
+  Proper 'section' detection when using '(', ')', '[' & ']'
+
+v1.5.6.1
+
+  Quick fix for 'section' names with '(', ')', '[' & ']'
+
+v1.5.6
+
+  Pause Pounce added
+  Current Session Pounces added
+  Auto select account (if there is only one for selected 
+    medium)
+
+  Enable / Disable OMS (offline message system)
+
+v1.5
+
+  Offline message detection (reads outgoing messages to 
+    determine if a pounce should be saved)
+	
+
+v0.4-1.4
+
+  Not released
+
+v0.3	
+
+  Initial release (basic function only)		
+	

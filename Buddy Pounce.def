@@ -1,0 +1,4 @@
+LIBRARY	"Buddy Pounce"
+EXPORTS
+	plugin_version	@1 ; 
+	plugin_main		@2 ; 
